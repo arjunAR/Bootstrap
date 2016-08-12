@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+	<div class="container" id="main">
+
+		<div id="myNavBar" class="navbar navbar-fixed-top">
+			<div class="container">
+				<!--To target a button when screen is collapsed-->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="images/flipkart_logo.png" alt="Your Logo"></a>
+
+				
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<form class="navbar-form pull-left">
+						<input id="searchsite" type="text" class="form-control" placeholder="Search your brand.."/>
+						<button id="searchButton" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						<button id="cart" class="btn btn-medium btn-default"><span class="glyphicon glyphicon-shopping-cart"></span>  CART</button>
+					</form>
+
+					
+					
+					<ul class="nav navbar-nav pull-right">
+
+						<li class="dropdown">
+							<a id="myAccount" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> My Accounts <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-pencil"></span> Update Profile</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Signout</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+		
+				</div><!--end navbar collapse-->
+			</div><!--end inner container-->		
+		</div><!-- end navbar -->
+
+		
+
+		<div class="carousel slide" id="myCarousel">
+
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+				<li data-slide-to="3" data-target="#myCarousel"></li>
+			</ol>
+
+			<div class="carousel-inner">
+
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Iphone</h4>
+						<p>There's iphone, and then ther's everything else</p>
+					</div>
+				</div>
+
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>G Shock</h4>
+						<p>Grab the ultimate touch watch</p>
+					</div>
+				</div>
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>Footwear</h4>
+						<p>Give your boy the right shoes</p>
+					</div>
+				</div>
+
+				<div class="item" id="slide4">
+					<div class="carousel-caption">
+						<h4>Household</h4>
+						<p>Grab all you need for home</p>
+					</div>
+				</div>
+
+			</div><!-- end myCarousel inner-->
+
+			<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+			<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+
+		</div><!-- end myCarousel -->
+		
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				
+				<h2>Deals Of The Day</h2>
+				
+				<p class="lead">Here is the best deal of the day. Grab every hour a new exiting offer. You may be a lucky winner to win a brand new car.Happy Shopping!!!!</p>
+			</div>
+
+		</div><!-- end row -->
+		
+		
+		<div class="row" id="deals">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Shoes</h3>
+					</div>
+					<img src="images/flip_shoe.jpg" alt="shoe">
+					
+					<a href="http://w23schools.com/css" target="_blank" class="btn btn-info btn-block">Buy now</a>
+				</div>
+				
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Headphones</h3>
+					</div>
+					<img src="images/flip_headphone.jpg" alt="headphone">
+					
+					<a href="http://w23schools.com/html5" target="_blank" class="btn btn-info btn-block">Buy now</a>
+				</div>
+				
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Laptops</h3>
+					</div>
+					<img src="images/flip_lap.jpg" alt="laptop">
+					
+					<a href="http://w23schools.com/bootstrap" target="_blank" class="btn btn-info btn-block">Buy now</a>
+				</div>
+				
+			</div>
+
+		</div>
+		<div class="row" id="deals">
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Shirts</h3>
+					</div>
+					<img src="images/flip_shirt.jpg" alt="shirt">
+					
+					<a href="http://w23schools.com/bootstrap" target="_blank" class="btn btn-info btn-block">Buy now</a>
+				</div>
+				
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Phones</h3>
+					</div>
+					<img src="images/flip_phone.jpg" alt="phone">
+					
+					<a href="http://w23schools.com/bootstrap" target="_blank" class="btn btn-info btn-block">Buy now</a>
+				</div>
+				
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Backpacks</h3>
+					</div>
+					<img src="images/flip_bag.jpg" alt="backpacks">
+					
+					<a href="http://w23schools.com/bootstrap" target="_blank" class="btn btn-info btn-block">Buy now</a>
+				</div>
+				
+			</div>
+
+		</div><!-- end row -->
+
+		<div class="row" id="upcomingDeals">
+			<div class="col-sm-6">
+				<h2>Upcoming Lenovo Vibe!!</h2>
+				<img src="images/flip2.jpg" alt="vibe">
+				<p>Lenovo is back with a bang with its new version K Series.The Lenovo Vibe K5  note is set to hit the market coming august. Be a smart customer to grab the opportunity to own a high speed octa processor with dolby atmos. Experience the cinematic experience available in Vibe. 
+				</p>
+
+			</div>
+			<div class="col-sm-6">
+				<div id="ad">
+				<h2>Features</h2>
+				<ul>
+					<li>Wide IPS display</li>
+					<li>Theatremax cinematic experience</li>
+					<li>Secure fingerprint sensor</li>
+					<li>Dolby atmos enabled</li>
+					<li>Octa core processor</li>
+					<li>21 megapixel camera</li>
+					<li>Gesture control</li>
+					<li>Octa core processor</li>
+				</ul>
+				</div>
+				<h3>A List Group</h3>
+				<div class="list-group">
+					<a class="list-group-item">
+						
+							<h4 class="list-group-item-heading">TheatreMax Cinematic Experience</h4>
+							<p class="list-group-item-text">Click to experience it!!</p>
+							
+						
+					</a>
+
+					<a class="list-group-item">
+						
+							<h4 class="list-group-item-heading">Wanna Register??</h4>
+							<p class="list-group-item-text">Here Iam!!</p>
+						
+					</a>
+
+					
+					
+				</div>
+				<h1>Be the first to register!!!</h1>
+				<a href="#modalwindow" class="btn btn-danger btn-block" data-toggle="modal">Click here to register!!</a>
+
+
+
+				<div class="modal fade" id="modalwindow">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Registration Window</h4>
+											</div>
+
+											<div class="modal-body">
+												
+												<p class="text-muted"></p>
+
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+														<input class="form-control" type="text" id="inputName" placeholder="Enter Name">
+														</div>
+													</div>	
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+														<input class="form-control" type="text" id="inputEmail" placeholder="Enter Email">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Mobile</label>
+														<div class="col-lg-10">
+														<input class="form-control" type="text" id="inputMobile" placeholder="Enter mobile no">
+														</div>
+													</div>
+														
+													<div class="form-group">	
+														<label class="col-lg-2 control-label" for="inputMessage">Address</label>
+														<div class="col-lg-10">
+														<textarea class="form-control" type="text" id="inputMessage" placeholder="Enter Address" row="3"></textarea>
+														
+														</div>
+													</div>	
+														
+														
+													
+												</form>
+											</div>
+
+											<div class="modal-footer">
+												<button class="btn btn-default">Close</button>
+												<button class="btn btn-info">Register Now</button>
+											</div>	
+										</div>
+									</div>
+								</div>
+			</div>
+		</div>
+		
+		<!--jumbotron	
+		<div class="jumbotron" id="jumbo">
+			
+		    <h3>Bootstrap Tutorial</h3>
+		    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+		</div>
+		-->	
+		
+		</div>
+		<hr>
+		<div class="row" id="bankOffer">
+			<div class="col-sm-12">
+
+				<img src="images/sbi.jpg" alt="sbooffer">
+			</div>
+		</div>
+		</div><!-- end main container -->
+
+		<footer>
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-3">
+									<h4>About Us</h4>
+									<p>Flipkart is an e-commerce company founded in 2007 by Sachin Bansal and Binny Bansal, both alumni of the Indian Institute of Technology Delhi. The company is registered in Singapore, but has its headquarters in Bangalore, Karnataka, India.Flipkart has launched its own product range under the name "DigiFlip" with products including tablets, USBs, and laptop bags.Flipkart's last fundraising round in May 2015 had pegged its valuation at $15 billion. In May 2016, Morgan Stanley lowered Flipkart's valuation to $9.39 billion.</p>
+
+
+								</div>
+								
+								<div class="col-sm-2">
+									<h4>Navigation</h4>
+									<ul>
+										<li><a href="#">Watches</a></li>
+										<li><a href="#">Electronics</a></li>
+										<li><a href="#">Furnitures</a></li>
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Gadgets</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-2">
+									<h4>Follow Us</h4>
+									<ul>
+										<li><a href="#">Twitter</a></li>
+										<li><a href="#">Facebook</a></li>
+										<li><a href="#">Google+</a></li>
+									</ul>
+								</div>
+
+								<div class="col-sm-3">
+									<h4>Copyrights &copy; Flipkart.com</h4>
+									<p></p>
+								</div>
+
+								<div class="col-sm-2">
+									<h4><span class="glyphicon glyphicon-heart"></span>Come back for the next shopping soon</h4>
+									<p></p>
+								</div>
+							</div>
+						</div>	
+					</footer>
+
+
+		<!--
+		<div class="navbar navbar-fixed-top" id="myNavBar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/"><img src="images/flipkart_logo.png" alt="Your Logo"></a>
+
+				
+
+					<form class="navbar-form pull-left">
+						<input id="searchsite" type="text" class="form-control" placeholder="Search this site.."/>
+						<button id="searchButton" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						<button id="cart" class="btn btn-medium btn-default"><span class="glyphicon glyphicon-shopping-cart"></span>  CART</button>
+					</form>
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a id="myAccount" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> My Accounts <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-pencil"></span> Update Profile</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Signout</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+			
+
+					<ul id="myOption" class="nav navbar-nav">
+						<li>
+							<a id="myAccount" class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Electronics <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-pencil"></span> Update Profile</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Signout</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Appliances</a>
+						</li>
+						<li>
+							<a href="#">Mens</a>
+						</li>
+						<li>
+							<a href="#">Womens</a>
+						</li>
+						<li>
+							<a href="#">Baby & Kids</a>
+						</li>
+						<li>
+							<a href="#">Home & Furniture</a>
+						</li>
+						<li>
+							<a href="#">Books</a>
+						</li>
+						
+					</ul>
+					-->
+			
+		
+
+
+		
+		
+		
+
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
